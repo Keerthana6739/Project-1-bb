@@ -1,0 +1,21 @@
+:root{
+    /*fonts*/
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+
+    /* Colors */
+    --primary-color: white; 
+   --text-color: black; 
+
+   /*margin*/
+  --margin-top:8px;
+
+}
+
+h5{
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+.form{
+    margin-top:var(--margin-top) ;
+}
